@@ -20,7 +20,7 @@ jobs:
       run: docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD
       
     - name: Build the Docker image
-      run: docker build -t cicd-pipeline:latest .
+      run: docker build tag sample:latest .
 
     - name: Push to Docker Hub
-      run: docker push 1010varun/cicd-pipeline:latest
+      run: docker push 1010varun/sample:latest
