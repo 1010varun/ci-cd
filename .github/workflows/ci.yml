@@ -20,7 +20,7 @@ jobs:
       run: docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD
       
     - name: Build the Docker image
-      run: docker build tag 1010varun/sample:latest .
+      run: docker build -t 1010varun/sample:latest .
 
     - name: Push to Docker Hub
       run: docker push 1010varun/sample:latest
