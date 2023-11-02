@@ -13,7 +13,6 @@ jobs:
     runs-on: self-hosted
 
     steps:
-
     - name: PULL DOCKER IMAGE
       run: sudo docker pull 1010varun/sample:latest
 
