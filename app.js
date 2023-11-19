@@ -4,7 +4,7 @@ const app = express();
 
 app.get("/get", (req, res) => {
   res.json({
-    message: "this is a cicd pipeline setrup",
+    message: "this is a cicd pipeline setup",
     status: 200,
   });
 });
