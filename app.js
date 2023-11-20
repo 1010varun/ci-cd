@@ -4,7 +4,7 @@ const app = express();
 
 app.get("/get", (req, res) => {
   res.json({
-    message: "this is a cicd from new branch",
+    message: "sample get request",
     status: 200,
   });
 });
