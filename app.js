@@ -4,7 +4,7 @@ const app = express();
 
 app.get("/get", (req, res) => {
   res.json({
-    message: "this is a cicd pipeline setup exiting runnner",
+    message: "this is a cicd from new branch",
     status: 200,
   });
 });
